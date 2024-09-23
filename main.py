@@ -17,5 +17,8 @@ while True :
     #Update position
 
     #Draw the change
+    pygame.draw.circle(window, pygame.Color('white'), (400, 400), 20)
+
+
     pygame.display.update()
     clock.tick(60)
